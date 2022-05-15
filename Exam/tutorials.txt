@@ -1,0 +1,14 @@
+https://1bestcsharp.blogspot.com/2015/10/php-html-table-search-filter-data-mysql-database.html
+
+https://www.google.com/search?q=php+html+filter+search+mysql+data&sxsrf=ALiCzsYgFj3nFFci3DB8XBaLUl__DdSBvw%3A1652213315879&ei=Q8Z6YqKJNZrtsAfliY2YAg&ved=0ahUKEwjitqSe3tX3AhWaNuwKHeVEAyMQ4dUDCA4&uact=5&oq=php+html+filter+search+mysql+data&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEAgQHjIGCAAQCBAeMgYIABAIEB46BwgAEEcQsAM6BAgjECc6CAgAEAgQBxAeSgQIQRgASgQIRhgAUIoHWJMOYPkTaAFwAXgAgAFWiAH3A5IBATeYAQCgAQHIAQjAAQE&sclient=gws-wiz
+
+https://www.homeandlearn.co.uk/php/php12p4.html
+
+PDO: 
+https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
+
+https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
+
+Search filter:
+https://www.youtube.com/watch?v=2XuxFi85GTw
+
