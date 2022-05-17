@@ -2,9 +2,9 @@
 
 // Database gegevens
 define('DB_SERVER', 'localhost');
-define('DB_GEBRUIKERSNAAM', 'ex85120');
-define('DB_WACHTWOORD', 'AdamDzik!23');
-define('DB_NAAM', 'Examen85120');
+define('DB_GEBRUIKERSNAAM', 'root');
+define('DB_WACHTWOORD', '');
+define('DB_NAAM', 'examen85120');
 
 // Laat foutmeldingen zien.
 error_reporting(E_ALL);

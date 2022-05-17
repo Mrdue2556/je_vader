@@ -39,7 +39,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
         if($stmt = $pdo->prepare($sql)){
             // Bind variabelen aan de voorbereide instructie als parameters
-            $stmt->bindParam(":email", $param_Email, PDO::PARAM_STR);
+            $stmt->bindParam(":Email", $param_Email, PDO::PARAM_STR);
 
             //Stel parameters in
             $param_Email = trim($_POST["Email"]);

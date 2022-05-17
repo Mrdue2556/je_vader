@@ -1,14 +1,12 @@
 <?php
-session_start();
 include "../../php/verwerk/reis_inschrijf_verwerk.php";
 
 // Controleer het bestaan van de id-parameter voordat deze verder word verwerkt.
 if (isset($_GET["Reis_ID"]) && !empty(trim($_GET["Reis_ID"]))){
     // Voeg config bestand toe
 
-
     // Bereid een select statement.
-    $sql = "SELECT * FROM Reis WHERE Reis_ID = :Reis_ID";
+    $sql = "SELECT * FROM reis WHERE Reis_ID = :Reis_ID";
 
     if ($stmt = $pdo->prepare($sql)){
         // Bind variabelen aan de prepared statement als parameters

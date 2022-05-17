@@ -5,6 +5,7 @@ include "../../config/config.php";
 include "../../assets/navbar.php";
 
 include "../../php/verwerk/reis_counter_verwerk.php";
+
 //Check of je als student in bent gelogd zo ja, dan laat inschrijf form zien
 if(isset($_SESSION['Student_ID']) || !empty($_SESSION['Student_ID'])) {
     if ($_SESSION['Student_ID']) {

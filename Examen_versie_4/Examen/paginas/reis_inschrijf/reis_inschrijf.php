@@ -61,13 +61,13 @@ include "../../php/verwerk/reis_counter_verwerk.php";
                             echo "<td>" . $rij["Begindatum"] . "</td>";
                             echo "<td>" . $rij["Einddatum"] . "</td>";
 
-                            $Aantal_Plekken = $rij['Aantal_Plekken'];
-                            $OpenRuimtes = $Aantal_Plekken - Counter($rij["Reis_ID"], $pdo);
-                            if ($OpenRuimtes === 0){
-                                echo "<p class=''>VOL</p>";
-                            } else{
-                                echo "<td>" . $OpenRuimtes ."/". $Aantal_Plekken . "</td>";
-                            }
+//                            $Aantal_Plekken = $rij['Aantal_Plekken'];
+//                            $OpenRuimtes = $Aantal_Plekken - Counter($rij["Reis_ID"], $pdo);
+//                            if ($OpenRuimtes === 0){
+//                                echo "<p class=''>VOL</p>";
+//                            } else{
+//                                echo "<td>" . $OpenRuimtes ."/". $Aantal_Plekken . "</td>";
+//                            }
 
                             echo "<td class='pull-right'>";
                             // Detail scherm
@@ -97,3 +97,4 @@ include "../../php/verwerk/reis_counter_verwerk.php";
 
 </body>
 </html>
+
