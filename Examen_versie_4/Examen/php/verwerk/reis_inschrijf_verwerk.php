@@ -9,7 +9,7 @@ $Student_ID = $_SESSION["Student_ID"];
 // Stop de studentnummer in een session
 $Studentnummer = $_SESSION["Studentnummer"];
 
-if (isset($_GET["Reis_ID"])) {
+if (isset($_POST["Reis_ID"])) {
     $Reis_ID = $_POST['Reis_ID'];
 }
 
@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     // Omschrijving
     $input_Opmerkingen = trim($_POST["Opmerkingen"]);
-        $Opmerkingen = $input_Opmerkingen;
+    $Opmerkingen = $input_Opmerkingen;
 
     // Controleer invoerfouten voordat de data in de database ingevoegd word
     if(empty($Identiteisbewijs_nummer_err)){
