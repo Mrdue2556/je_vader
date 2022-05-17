@@ -103,6 +103,9 @@ if (isset($_GET["Reis_ID"]) && !empty(trim($_GET["Reis_ID"]))){
                         <label>Opmerkingen</label>
                         <textarea name="Opmerkingen" class="form-control"><?php echo $Opmerkingen; ?></textarea>
                     </div>
+                        <div class="form-group" hidden>
+                            <input name="Reis_ID" class="form-control" value="<?php echo $Reis_ID = $_GET['Reis_ID']; ?>">
+                        </div>
                     <input type="submit" class="btn btn-success mb-5" value="Schrijf in">
                     <a href="reis_inschrijf.php" class="btn btn-secondary ml-2 mb-5">Terug</a>
                 </form>
